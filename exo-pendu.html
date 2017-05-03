@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Pendu</title>
+
+    <style>
+        
+        body{
+         
+        }
+        
+        .bg-1{
+        background-image: url("upandown_3/images/background/bg_jeuactif1.png");
+        }
+        
+        .bg-2 {
+        background-image: url("upandown_3/images/background/bg_jeuactif2.png");    
+        }
+        
+    </style>
+    
+</head>
+
+<body>
+   
+    <div> </div>
+    <input class="input-1" type="text" name="mots">
+    <button class="btn-ok">ok</button>
+    
+    
+    
+<script>
+
+// variables
+var tableauMot = ["kebab", "banane", "chaton", "poney", "dauphin", "lion", "saucisson", "javascript", "méchant", "larmes"];
+
+var btnOk = document.querySelector(".btn-ok");
+var caseMot = document.querySelector(".input-1");
+var motAleatoire = tableauMot[Math.floor(Math.random()*tableauMot.length)];    
+
+    
+//evenement
+
+btnOk.addEventListener('click', verifLettre);
+
+//fonction
+    
+function verifLettre() {
+    
+    if (caseMot.value == motAleatoire){
+        console.log("yuhou");
+    }
+}  
+
+    
+
+</script>
+    
+    
+</body>
+
+
+
+</html>
+
+

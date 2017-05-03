@@ -1,0 +1,106 @@
+body {
+    margin: 40px;
+    background-image: url("../images/motifs_bckgrnd.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+
+.jeu {
+    display: flex;
+}
+
+
+
+h2 {
+    font-family: Fugue;
+    font-size: 50px;
+    margin-top: 0;
+}
+
+
+.partiedroite {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+
+.jeuactif {
+
+    background-image: url("../images/img7.png");
+    width: 794px;
+    height: 794px;
+    background-repeat: no-repeat;
+}
+
+#clavier {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Fugue;
+    font-size: 40px;
+    width: 80%;
+    height: auto;
+    margin-top: 100px;
+}
+
+.touche {
+    color: #FD493A;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    width: 40px;
+    height: 40px;
+    border: solid 5px #FD493A;
+}
+
+.touche:hover {
+    color: white ;
+    background-color:#FD493A ;
+    border: solid 5px white;
+    cursor: pointer;
+}
+
+p {
+    color: #FD493A;
+    background-color: white;
+    border: solid 5px #FD493A;
+    display: flex;
+    justify-content: space-around;
+    font-family: Fugue;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    width: 50%;
+    height: auto;
+    text-transform: uppercase;
+}
+
+
+button {
+    text-decoration: none;
+    font-family: Fugue;
+    color: white;
+    font-size: 27px;
+    width: 120px;
+    height: 50px;
+    border: none;
+    background-color: #69D3FB;
+    display: flex;
+    border: solid 4px white;
+    margin-top: 200px;
+    letter-spacing: 1px;
+    justify-content:space-around;
+    align-items:space-around;
+}
+button:hover{
+    cursor: pointer;
+    color: #69D3FB;
+    background-color:white;
+    border: solid 4px #69D3FB;
+}
